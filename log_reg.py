@@ -3,7 +3,7 @@ from PyQt5 import uic
 import sys
 import mysql.connector
 
-
+# Please make sure to add requirements.txt
 
 import logo_rc
 from menu import Menu_page
