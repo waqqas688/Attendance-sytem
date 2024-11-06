@@ -4,7 +4,7 @@ import sys
 import mysql.connector
 
 # Please make sure to add requirements.txt
-
+# Add the elastic row on left for responsiveness
 import logo_rc
 from menu import Menu_page
 
@@ -98,6 +98,8 @@ class logReg(QMainWindow):
         self.user_passC=self.findChild(QLineEdit,"reg_passC")
         self.reg_sub=self.findChild(QPushButton,"reg_sub")
         self.reg_sub.clicked.connect(verify_data)
+
+        #breaking responsive nature here
         
         #Login Page
         self.log_id=self.findChild(QLineEdit,"log_id")
