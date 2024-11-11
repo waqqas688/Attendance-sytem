@@ -87,7 +87,7 @@ class logReg(QMainWindow):
                 msg.setIcon(QMessageBox.Warning)
                 x=msg.exec_()
             
-            
+        #This is it make sure to add spring for left hook also create color 
             
         self.stck=self.findChild(QStackedWidget,"stackedWidget")
         self.stck.setCurrentIndex(0)
